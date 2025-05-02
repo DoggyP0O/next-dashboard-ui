@@ -918,146 +918,321 @@ export const announcementsData = [
 
 // YOU SHOULD CHANGE THE DATES OF THE EVENTS TO THE CURRENT DATE TO SEE THE EVENTS ON THE CALENDAR
 export const calendarEvents = [
+  
   {
-    title: "Math",
+    id: 1,
+    title: "CS2323",
     allDay: false,
-    start: new Date(2024, 7, 12, 8, 0),
-    end: new Date(2024, 7, 12, 8, 45),
+    start: new Date(2025, 2, 24, 9, 20),
+    end: new Date(2025, 2, 24, 10, 10),
   },
   {
-    title: "English",
+    id: 2,
+    title: "CS2323",
     allDay: false,
-    start: new Date(2024, 7, 12, 9, 0),
-    end: new Date(2024, 7, 12, 9, 45),
+    start: new Date(2025, 2, 26, 9, 20),
+    end: new Date(2025, 2, 26, 10, 10),
   },
   {
-    title: "Biology",
+    id: 3,
+    title: "CS2323",
     allDay: false,
-    start: new Date(2024, 7, 12, 10, 0),
-    end: new Date(2024, 7, 12, 10, 45),
+    start: new Date(2025, 2, 28, 9, 20),
+    end: new Date(2025, 2, 28, 10, 10),
+  },
+
+
+  {
+    id: 4,
+    title: "CS3340",
+    allDay: false,
+    start: new Date(2025, 2, 19, 13, 0),
+    end: new Date(2025, 2, 19, 15, 45),
   },
   {
+    id: 5,
+    title: "CS3350",
+    allDay: false,
+    start: new Date(2025, 2, 17, 11, 0),
+    end: new Date(2025, 2, 17, 12, 45),
+  },
+  {
+    id: 6,
+    title: "CS3350",
+    allDay: false,
+    start: new Date(2025, 2, 19, 11, 0),
+    end: new Date(2025, 2, 19, 12, 45),
+  },
+  {
+    id: 7,
+    title: "CS3350",
+    allDay: false,
+    start: new Date(2025, 2, 21, 11, 0),
+    end: new Date(2025, 2, 21, 12, 45),
+  },
+
+
+  {
+    id: 8,
     title: "Physics",
     allDay: false,
-    start: new Date(2024, 7, 12, 11, 0),
-    end: new Date(2024, 7, 12, 11, 45),
-  },
-  {
-    title: "Chemistry",
-    allDay: false,
-    start: new Date(2024, 7, 12, 13, 0),
-    end: new Date(2024, 7, 12, 13, 45),
-  },
-  {
-    title: "History",
-    allDay: false,
-    start: new Date(2024, 7, 12, 14, 0),
-    end: new Date(2024, 7, 12, 14, 45),
-  },
-  {
-    title: "English",
-    allDay: false,
-    start: new Date(2024, 7, 13, 9, 0),
-    end: new Date(2024, 7, 13, 9, 45),
-  },
-  {
-    title: "Biology",
-    allDay: false,
-    start: new Date(2024, 7, 13, 10, 0),
-    end: new Date(2024, 7, 13, 10, 45),
-  },
-  {
-    title: "Physics",
-    allDay: false,
-    start: new Date(2024, 7, 13, 11, 0),
-    end: new Date(2024, 7, 13, 11, 45),
+    start: new Date(2025, 2, 21, 11, 0),
+    end: new Date(2025, 2, 21, 12, 45),
   },
 
   {
+    id: 9,
     title: "History",
     allDay: false,
     start: new Date(2024, 7, 13, 14, 0),
     end: new Date(2024, 7, 13, 14, 45),
   },
+  
+];
+
+export const calendarEvents2 = [
+  
   {
-    title: "Math",
+    id: 1,
+    title: "CS2323",
     allDay: false,
-    start: new Date(2024, 7, 14, 8, 0),
-    end: new Date(2024, 7, 14, 8, 45),
+    start: new Date(2025, 2, 24, 9, 20),
+    end: new Date(2025, 2, 24, 10, 10),
   },
   {
-    title: "Biology",
+    id: 2,
+    title: "CS2323",
     allDay: false,
-    start: new Date(2024, 7, 14, 10, 0),
-    end: new Date(2024, 7, 14, 10, 45),
+    start: new Date(2025, 2, 26, 9, 20),
+    end: new Date(2025, 2, 26, 10, 10),
+  },
+  {
+    id: 3,
+    title: "CS2323",
+    allDay: false,
+    start: new Date(2025, 2, 28, 9, 20),
+    end: new Date(2025, 2, 28, 10, 10),
+  },
+
+
+  {
+    id: 4,
+    title: "CS1310",
+    allDay: false,
+    start: new Date(2025, 2, 25, 9, 0),
+    end: new Date(2025, 2, 25, 10, 45),
+  },
+  {
+    id: 5,
+    title: "CS1310",
+    allDay: false,
+    start: new Date(2025, 2, 27, 9, 0),
+    end: new Date(2025, 2, 27, 10, 45),
+  },
+  {
+    id: 6,
+    title: "CS3350",
+    allDay: false,
+    start: new Date(2025, 2, 19, 11, 0),
+    end: new Date(2025, 2, 19, 12, 45),
+  },
+  {
+    id: 7,
+    title: "CS3350",
+    allDay: false,
+    start: new Date(2025, 2, 21, 11, 0),
+    end: new Date(2025, 2, 21, 12, 45),
+  },  
+];
+
+export const calendarEvents3 = [
+  
+  {
+    id: 1,
+    title: "CS2323",
+    allDay: false,
+    start: new Date(2025, 2, 24, 9, 20),
+    end: new Date(2025, 2, 24, 10, 10),
+  },
+  {
+    id: 2,
+    title: "CS2323",
+    allDay: false,
+    start: new Date(2025, 2, 26, 9, 20),
+    end: new Date(2025, 2, 26, 10, 10),
+  },
+  {
+    id: 3,
+    title: "CS2323",
+    allDay: false,
+    start: new Date(2025, 2, 28, 9, 20),
+    end: new Date(2025, 2, 28, 10, 10),
+  },
+
+
+  {
+    id: 4,
+    title: "CS1310",
+    allDay: false,
+    start: new Date(2025, 2, 25, 9, 0),
+    end: new Date(2025, 2, 25, 10, 45),
+  },
+  {
+    id: 5,
+    title: "CS1310",
+    allDay: false,
+    start: new Date(2025, 2, 27, 9, 0),
+    end: new Date(2025, 2, 27, 10, 45),
+  },
+  {
+    id: 6,
+    title: "CS2315",
+    allDay: false,
+    start: new Date(2025, 2, 24, 10, 20),
+    end: new Date(2025, 2, 24, 11, 10),
+  },
+  {
+    id: 7,
+    title: "CS2315",
+    allDay: false,
+    start: new Date(2025, 2, 26, 10, 20),
+    end: new Date(2025, 2, 26, 11, 10),
+  },  
+  {
+    id: 7,
+    title: "CS2315",
+    allDay: false,
+    start: new Date(2025, 2, 28, 10, 20),
+    end: new Date(2025, 2, 28, 11, 10),
+  },  
+];
+
+
+export const calendarEvents0 = [];
+
+  export const calendarEvents4 = [
+  
+  {
+    id: 1,
+    title: "CS2323",
+    allDay: false,
+    start: new Date(2025, 2, 24, 9, 20),
+    end: new Date(2025, 5, 24, 10, 10),
+  },
+  {
+    id: 2,
+    title: "CS2323",
+    allDay: false,
+    start: new Date(2025, 2, 26, 9, 20),
+    end: new Date(2025, 5, 26, 10, 10),
+  },
+  {
+    id: 3,
+    title: "CS2323",
+    allDay: false,
+    start: new Date(2025, 2, 28, 9, 20),
+    end: new Date(2025, 5, 28, 10, 10),
+  },
+
+
+  {
+    id: 4,
+    title: "CS1310",
+    allDay: false,
+    start: new Date(2025, 2, 25, 9, 0),
+    end: new Date(2025, 5, 25, 10, 45),
+  },
+  {
+    id: 5,
+    title: "CS1310",
+    allDay: false,
+    start: new Date(2025, 2, 27, 9, 0),
+    end: new Date(2025, 5, 27, 10, 45),
+  },
+  {
+    id: 6,
+    title: "CS2315",
+    allDay: false,
+    start: new Date(2025, 2, 24, 10, 20),
+    end: new Date(2025, 5, 24, 11, 10),
+  },
+  {
+    id: 7,
+    title: "CS2315",
+    allDay: false,
+    start: new Date(2025, 2, 26, 10, 20),
+    end: new Date(2025, 5, 26, 11, 10),
+  },  
+  {
+    id: 7,
+    title: "CS2315",
+    allDay: false,
+    start: new Date(2025, 2, 28, 10, 20),
+    end: new Date(2025, 5, 28, 11, 10),
+  },  
+  {
+    id: 8,
+    title: "CS3320",
+    allDay: false,
+    start: new Date(2025, 4, 25, 11, 20),
+    end: new Date(2025, 4, 25, 12, 35),
+  },
+  {
+    id: 9,
+    title: "CS3320",
+    allDay: false,
+    start: new Date(2025, 4, 27, 11, 20),
+    end: new Date(2025, 4, 27, 12, 35),
+  },
+];
+
+
+export const calendarClasses = [
+  
+  {
+    id: 1,
+    title: "CS1310",
+    name: "Programming 1",
+    section: "001",
+    date: "TTH",
+    time: "9:00 - 10:45",
   },
 
   {
-    title: "Chemistry",
-    allDay: false,
-    start: new Date(2024, 7, 14, 13, 0),
-    end: new Date(2024, 7, 14, 13, 45),
-  },
-  {
-    title: "History",
-    allDay: false,
-    start: new Date(2024, 7, 14, 14, 0),
-    end: new Date(2024, 7, 13, 14, 45),
-  },
-  {
-    title: "English",
-    allDay: false,
-    start: new Date(2024, 7, 15, 9, 0),
-    end: new Date(2024, 7, 15, 9, 45),
-  },
-  {
-    title: "Biology",
-    allDay: false,
-    start: new Date(2024, 7, 15, 10, 0),
-    end: new Date(2024, 7, 15, 10, 45),
-  },
-  {
-    title: "Physics",
-    allDay: false,
-    start: new Date(2024, 7, 15, 11, 0),
-    end: new Date(2024, 7, 15, 11, 45),
+    id: 2,
+    title: "CS2323",
+    name: "Object Oriented Programming 1",
+    section: "001",
+    date: "MWF",
+    time: "9:20 - 10:10",
   },
 
-  {
-    title: "History",
-    allDay: false,
-    start: new Date(2024, 7, 15, 14, 0),
-    end: new Date(2024, 7, 15, 14, 45),
-  },
-  {
-    title: "Math",
-    allDay: false,
-    start: new Date(2024, 7, 16, 8, 0),
-    end: new Date(2024, 7, 16, 8, 45),
-  },
-  {
-    title: "English",
-    allDay: false,
-    start: new Date(2024, 7, 16, 9, 0),
-    end: new Date(2024, 7, 16, 9, 45),
-  },
 
   {
-    title: "Physics",
-    allDay: false,
-    start: new Date(2024, 7, 16, 11, 0),
-    end: new Date(2024, 7, 16, 11, 45),
+    id: 3,
+    title: "CS2315",
+    name: "Algorithms",
+    section: "001",
+    date: "MWF",
+    time: "10:20 - 11:10",
   },
   {
-    title: "Chemistry",
-    allDay: false,
-    start: new Date(2024, 7, 16, 13, 0),
-    end: new Date(2024, 7, 16, 13, 45),
+    id: 4,
+    title: "CS3320",
+    name: "Files and Database",
+    section: "001",
+    date: "TTH",
+    time: "11:20 - 12:35",
   },
+
+  
+];
+
+export const calendarDate = [
+  
   {
-    title: "History",
-    allDay: false,
-    start: new Date(2024, 7, 16, 14, 0),
-    end: new Date(2024, 7, 16, 14, 45),
+    id: 1,
+    counter: 3,
   },
+
 ];
